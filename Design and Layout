@@ -1,0 +1,37 @@
+Implementation Approach
+HTML:
+
+The HTML would define the structure, with each button as an <input type="button"> or <button>. The display could be an <input type="text"> or a <div> with a specific ID to target for updates.
+CSS:
+
+CSS would style the buttons, layout, display screen, and overall appearance. Using CSS Grid or Flexbox would help in creating the grid layout. Additional styling would make the display look like a digital screen.
+JavaScript:
+
+JavaScript would handle the logic for the calculator. Each button would be linked to a function:
+Number and operator buttons would append the respective value to the display.
+The = button would evaluate the expression and display the result.
+The C button would reset the display.
+The DEL button would remove the last character.
+JavaScript's eval() function or a custom parsing function could be used to evaluate mathematical expressions.
+This calculator interface provides a clean, responsive layout for basic arithmetic operations and is a good example of using web technologies to create a simple, functional tool.
+
+Functionality
+Clear (C): Resets the display to zero.
+Delete (DEL): Removes the last digit or operation from the input.
+Operators (+, -, *, /): Allows basic arithmetic operations.
+Equal Sign (=): Computes the result based on the current input and displays it.
+Percentage (%): Typically used to find the percentage of a number.
+Decimal Point (.): Allows for decimal inputs.
+
+Display Screen:
+
+The calculator has a display screen at the top where the output or input is shown, currently displaying "0" in red. This would typically be achieved with an HTML <div> or <input> field styled to look like a screen.
+Buttons:
+
+The calculator includes buttons for numbers (0-9), basic arithmetic operations (+, -, *, /), and other functions such as percentage (%), clear (C), delete (DEL), and decimal point (.).
+The buttons are arranged in a grid layout, likely using CSS Grid or Flexbox to maintain equal-sized buttons and consistent spacing.
+Grid Lines:
+
+Each button has a green border, which helps separate them visually and improve usability. This can be done with CSS, applying border: 1px solid green; to each button.
+
+
